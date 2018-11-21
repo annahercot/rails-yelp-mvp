@@ -1,0 +1,5 @@
+<h1>Here are all the reviews!</h1>
+<% @reviews.each do |review| %>
+<h2><%= review.content %></h2>
+<h3> <%= review.rating %></h3>
+<% end %>
